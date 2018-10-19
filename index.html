@@ -1,3 +1,5 @@
+<!-- WHY ARE YOU LOOKING INSIDE THIS -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +9,7 @@
 </head>
 <body>
 
-
+  <!-- Layout -->
   <div class="set1">
     <div data-key="49" class="key">
       <kbd>1</kbd>
@@ -25,57 +27,6 @@
       <kbd>4</kbd>
       <span class="sound">MAKES US</span>
     </div>
-    <div data-key="81" class="key">
-      <kbd>Q</kbd>
-      <span class="sound">HARDER</span>
-    </div>
-    <div data-key="87" class="key">
-      <kbd>W</kbd>
-      <span class="sound">BETTER</span>
-    </div>
-    <div data-key="69" class="key">
-      <kbd>E</kbd>
-      <span class="sound">FASTER</span>
-    </div>
-    <div data-key="82" class="key">
-      <kbd>R</kbd>
-      <span class="sound">STRONGER</span>
-    </div>
-    <div data-key="65" class="key">
-      <kbd>A</kbd>
-      <span class="sound">MORE THAN</span>
-    </div>
-    <div data-key="83" class="key">
-      <kbd>S</kbd>
-      <span class="sound">HOUR</span>
-    </div>
-    <div data-key="68" class="key">
-      <kbd>D</kbd>
-      <span class="sound">OUR</span>
-    </div>
-    <div data-key="70" class="key">
-      <kbd>F</kbd>
-      <span class="sound">NEVER</span>
-    </div>
-    <div data-key="90" class="key">
-      <kbd>Z</kbd>
-      <span class="sound">EVER</span>
-    </div>
-    <div data-key="88" class="key">
-      <kbd>X</kbd>
-      <span class="sound">AFTER</span>
-    </div>
-    <div data-key="67" class="key">
-      <kbd>C</kbd>
-      <span class="sound">WORK IS</span>
-    </div>
-    <div data-key="86" class="key">
-      <kbd>V</kbd>
-      <span class="sound">OVER</span>
-    </div>
-  </div>
-
-  <div class="set2">
     <div data-key="53" class="key">
       <kbd>5</kbd>
       <span class="sound">WORK IT</span>
@@ -91,6 +42,25 @@
     <div data-key="56" class="key">
       <kbd>8</kbd>
       <span class="sound">MAKES US</span>
+    </div>
+  </div>
+
+  <div class="set1">
+    <div data-key="81" class="key">
+      <kbd>Q</kbd>
+      <span class="sound">HARDER</span>
+    </div>
+    <div data-key="87" class="key">
+      <kbd>W</kbd>
+      <span class="sound">BETTER</span>
+    </div>
+    <div data-key="69" class="key">
+      <kbd>E</kbd>
+      <span class="sound">FASTER</span>
+    </div>
+    <div data-key="82" class="key">
+      <kbd>R</kbd>
+      <span class="sound">STRONGER</span>
     </div>
     <div data-key="84" class="key">
       <kbd>T</kbd>
@@ -108,6 +78,25 @@
       <kbd>I</kbd>
       <span class="sound">STRONGER</span>
     </div>
+  </div>
+
+  <div class="set1">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">MORE THAN</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">HOUR</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">OUR</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">NEVER</span>
+    </div>
     <div data-key="71" class="key">
       <kbd>G</kbd>
       <span class="sound">MORE THAN</span>
@@ -123,6 +112,25 @@
     <div data-key="75" class="key">
       <kbd>K</kbd>
       <span class="sound">NEVER</span>
+    </div>
+  </div>
+
+  <div class="set1">
+    <div data-key="90" class="key">
+      <kbd>Z</kbd>
+      <span class="sound">EVER</span>
+    </div>
+    <div data-key="88" class="key">
+      <kbd>X</kbd>
+      <span class="sound">AFTER</span>
+    </div>
+    <div data-key="67" class="key">
+      <kbd>C</kbd>
+      <span class="sound">WORK IS</span>
+    </div>
+    <div data-key="86" class="key">
+      <kbd>V</kbd>
+      <span class="sound">OVER</span>
     </div>
     <div data-key="66" class="key">
       <kbd>B</kbd>
@@ -142,6 +150,7 @@
     </div>
   </div>
 
+  <!-- Audio -->
   <audio data-key="49" src="sounds/1WorkIt.wav"></audio>
   <audio data-key="50" src="sounds/2MakeIt.wav"></audio>
   <audio data-key="51" src="sounds/3DoIt.wav"></audio>
@@ -182,6 +191,7 @@
   <audio data-key="77" src="sounds/31WorkIs.wav"></audio>
   <audio data-key="188" src="sounds/32Over.wav"></audio>
 
+  <!-- Script -->
 <script>
   function removeTransition(e) {
     if (e.propertyName !== 'transform') return;
