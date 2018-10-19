@@ -2,11 +2,13 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>THIS IS MY BEET</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- Layout -->
@@ -155,7 +157,7 @@
   </div>
 
   <div class="set1">
-    <img src="beet.png" alt="beet" width="200" height="200"/>
+    <img src="beet.png" alt="beet" width="200" height="200" />
   </div>
 
   <div class="set1">
@@ -177,7 +179,7 @@
   <audio data-key="83" src="sounds/10Hour.mp3"></audio>
   <audio data-key="68" src="sounds/11Our.mp3"></audio>
   <audio data-key="70" src="sounds/12Never.mp3"></audio>
-  
+
   <audio data-key="90" src="sounds/13Ever.mp3"></audio>
   <audio data-key="88" src="sounds/14After.mp3"></audio>
   <audio data-key="67" src="sounds/15WorkIs.mp3"></audio>
@@ -197,33 +199,15 @@
   <audio data-key="72" src="sounds/26Hour.mp3"></audio>
   <audio data-key="74" src="sounds/27Our.mp3"></audio>
   <audio data-key="75" src="sounds/28Never.mp3"></audio>
-  
+
   <audio data-key="66" src="sounds/29Ever.mp3"></audio>
   <audio data-key="78" src="sounds/30After.mp3"></audio>
   <audio data-key="77" src="sounds/31WorkIs.mp3"></audio>
   <audio data-key="188" src="sounds/32Over.mp3"></audio>
 
   <!-- Script -->
-<script>
-  function removeTransition(e) {
-    if (e.propertyName !== 'transform') return;
-    e.target.classList.remove('playing');
-  }
-
-  function playSound(e) {
-    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
-    if (!audio) return;
-    audio.currentTime = 0;
-    audio.play();
-    key.classList.add('playing');
-  }
-
-  const keys = Array.from(document.querySelectorAll('.key'));
-  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-  window.addEventListener('keydown', playSound);
-</script>
-
+  <script src="main.js"></script>
 
 </body>
+
 </html>
