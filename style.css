@@ -17,7 +17,16 @@ kbd {
   font-size: 4rem;
 }
 
+footer {
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center; */
+}
+
 .normal {
+  text-align: center;
   display: flex;
   flex: 1;
   align-items: center;
@@ -25,7 +34,7 @@ kbd {
 }
 
 .row {
-  /* Something */
+  display: flex;
 }
 
 .box {
@@ -38,9 +47,10 @@ kbd {
 }
 
 /* What would show on mobile devices (less than 800px width) */
-@media only screen and (max-width: 800px) {
-  .mobile {
-    /* Nothing here yet */
+@media screen and (max-width: 800px) {
+  footer {
+    /* position: null;
+    bottom: 0; */
   }
 }
 
@@ -62,6 +72,7 @@ kbd {
 .playing {
   transform: scale(1.1);
   border-color: #4caf50;
+  background: #4caf50;
   box-shadow: 0 0 1rem #4caf50;
 }
 
