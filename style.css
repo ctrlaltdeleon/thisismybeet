@@ -1,15 +1,16 @@
 html {
-  font-size: 10px;
+  background-color: #6f86d4;
   /* Problem is setting a square image to be stretched */
   /* background-image: url(https://i.imgur.com/gLUdeQV.gif); */
-  background-color: #6f86d4;
+  font-size: 10px;
+  touch-action: manipulation;
 }
 
 body,
 html {
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
 kbd {
@@ -17,20 +18,12 @@ kbd {
   font-size: 4rem;
 }
 
-footer {
-  /* position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center; */
-}
-
 .normal {
-  text-align: center;
+  align-items: center;
   display: flex;
   flex: 1;
-  align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .row {
@@ -48,37 +41,34 @@ footer {
 
 /* What would show on mobile devices (less than 800px width) */
 @media screen and (max-width: 800px) {
-  footer {
-    /* position: null;
-    bottom: 0; */
-  }
 }
 
 .key {
+  background: rgba(0, 0, 0, 0.4);
   border: 0.4rem solid black;
   border-radius: 0.5rem;
-  margin: 1rem;
+  color: #4caf50;
+  display: inline-block;
   font-size: 1.5rem;
+  margin: 1rem;
   padding: 1rem 0.5rem;
+  text-align: center;
+  text-shadow: 0 0 0.5rem black;
   transition: all 0.07s ease;
   width: 10rem;
-  text-align: center;
-  color: white;
-  background: rgba(0, 0, 0, 0.4);
-  text-shadow: 0 0 0.5rem black;
-  display: inline-block;
 }
 
 .playing {
+  background: #d81b60;
+  border-color: #d81b60;
+  box-shadow: 0 0 1rem #d81b60;
   transform: scale(1.1);
-  border-color: #4caf50;
-  background: #4caf50;
-  box-shadow: 0 0 1rem #4caf50;
 }
 
+/* The text underneath the key */
 .sound {
+  color: #d81b60;
   font-size: 1.2rem;
-  text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: #4caf50;
+  text-transform: uppercase;
 }
