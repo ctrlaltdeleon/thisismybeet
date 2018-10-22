@@ -7,7 +7,7 @@ function playByKeyboard(e) {
   // This will take care of the button animation itself
   const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
   // Ensures when button is activated, the sound byte starts from the beginning
-  audio.currentTime = "0";
+  audio.currentTime = 0;
   // Play the sound!
   audio.play();
   // Animation for the button starts
@@ -26,7 +26,7 @@ function playByClick(e) {
   // This will take care of the button animation itself
   const key = document.querySelector(`.key[data-key="${keyCode}"]`);
   // Ensures when button is activated, the sound byte starts from the beginning
-  audio.currentTime = "0";
+  audio.currentTime = 0;
   // Play the sound!
   audio.play();
   // Animation for the button starts

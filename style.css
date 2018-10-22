@@ -1,8 +1,9 @@
 html {
   background-color: #6f86d4;
-  /* Problem is setting a square image to be stretched */
-  /* background-image: url(https://i.imgur.com/gLUdeQV.gif); */
+  background-image: url(https://raw.githubusercontent.com/acfromspace/infinitygauntlet/master/very-cool-stuff/vaporwave.gif);
+  background-size: cover;
   font-size: 10px;
+  height: 100vh;
   touch-action: manipulation;
 }
 
@@ -18,8 +19,13 @@ kbd {
   font-size: 4rem;
 }
 
+a {
+  color: white;
+}
+
 .normal {
   align-items: center;
+  color: white;
   display: flex;
   flex: 1;
   justify-content: center;
