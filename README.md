@@ -1,7 +1,7 @@
 <!-- HEADING -->
 
 <p align="center">
-  <img src="./avatar.png" width="60">
+  <img src="./images/avatar.png" width="60">
 </p>
 <h1 align="center">thisismybeet</h1>
 

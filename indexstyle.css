@@ -10,7 +10,7 @@ html {
 
 body,
 html {
-  font-family: sans-serif;
+  font-family: "Press Start 2P", cursive;
   margin: 0;
   padding: 0;
 }
@@ -20,34 +20,13 @@ kbd {
   font-size: 4rem;
 }
 
+/* Links */
 a {
-  color: white;
-}
-
-.normal {
-  align-items: center;
-  color: white;
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  text-align: center;
-}
-
-.row {
-  display: flex;
+  color: #4caf50;
 }
 
 .box {
   display: inline-block;
-}
-
-.main {
-  /* Thank goodness this worked */
-  text-align: center;
-}
-
-/* What would show on mobile devices (less than 800px width) */
-@media screen and (max-width: 800px) {
 }
 
 .key {
@@ -65,11 +44,38 @@ a {
   width: 10rem;
 }
 
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgba(192, 192, 192, 0.5); */
+  background-image: url(./images/cutekitty.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main {
+  /* Thank goodness this worked */
+  text-align: center;
+}
+
+#page {
+  display: none;
+}
+
 .playing {
   background: #d81b60;
   border-color: #d81b60;
   box-shadow: 0 0 1rem #d81b60;
   transform: scale(1.1);
+}
+
+.row {
+  display: flex;
 }
 
 /* The text underneath the key */
@@ -80,20 +86,15 @@ a {
   text-transform: uppercase;
 }
 
-#page {
-  display: none;
+.title {
+  align-items: center;
+  color: #4caf50;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
 }
 
-#loading {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  width: 100vw;
-  height: 100vh;
-  /* background-color: rgba(192, 192, 192, 0.5); */
-  background-image: url(/cutekitty.gif);
-  background-repeat: no-repeat;
-  background-position: center;
+/* What would show on mobile devices (less than 800px width) */
+@media screen and (max-width: 800px) {
 }
