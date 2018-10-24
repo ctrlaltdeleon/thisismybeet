@@ -1,5 +1,6 @@
 html {
-  background-color: #6f86d4;
+  /* background-color: #6f86d4; */
+  background-color: black;
   background-image: url(https://raw.githubusercontent.com/acfromspace/infinitygauntlet/master/very-cool-stuff/vaporwave.gif);
   background-size: cover;
   font-size: 10px;
@@ -77,4 +78,22 @@ a {
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+}
+
+#page {
+  display: none;
+}
+
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgba(192, 192, 192, 0.5); */
+  background-image: url(/cutekitty.gif);
+  background-repeat: no-repeat;
+  background-position: center;
 }
