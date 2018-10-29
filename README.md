@@ -32,11 +32,11 @@
 
 <!-- ![NAME_OF_GIF](URL_OF_GIF) -->
 
-[thisismybeet](https://github.com/acfromspace/thisismybeet) is an application with the following features:
+[thisismybeet](https://thisismybeet.netlify.com) is an application with the following features:
 
-- **Beets.** Still a work in progress, mainly on creating a React app switch.
-  <!-- - **FEATURE 2.** PARAGRAPH -->
-  <!-- - **FEATURE 3.** PARAGRAPH -->
+- **Beets.** Music at your fingertips. A fun gizmo to play with when you're with your friends and just would like to create memories by creating beets.
+- **Accessability.** Utilizes keyboard and clicks to be functional across desktop and native platforms and correct resizing if for some reason you need to resize the application.
+- **Aesthetics.** Implemented with the dark palettes of cyberpunk styles in order to make you feel like the DJ of the universe.
 
 <!-- QUICK INSTALLATION -->
 
