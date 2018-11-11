@@ -1,7 +1,7 @@
 html {
   /* background-color: #6f86d4; */
   background-color: black;
-  background-image: url(https://raw.githubusercontent.com/acfromspace/infinitygauntlet/master/very-cool-stuff/vaporwave.gif);
+  background-image: url(./images/vaporwave.gif);
   background-size: cover;
   font-size: 10px;
   height: 100vh;
