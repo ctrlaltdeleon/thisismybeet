@@ -7,7 +7,6 @@
 
 <!-- DESCRIPTION -->
 
-<!-- Kept at h3 to prevent line under the header -->
 <h3 align="center">
   <span role="img" aria-label="Musical Note">🎵</span>
 </h3>
@@ -19,7 +18,6 @@
 <!-- BADGES -->
 
 <p align="center">
-    <!-- HEY DON'T FORGET TO FIX THE URLS -->
     <a href="https://github.com/acfromspace/thisismybeet/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/mashape/apistatus.svg"
             alt="License: MIT"></a>
