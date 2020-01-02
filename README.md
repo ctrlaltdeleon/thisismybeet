@@ -27,9 +27,11 @@
 
 <!-- FEATURES -->
 
-![thisismybeet](https://user-images.githubusercontent.com/10361542/48317465-952f3c00-e5a7-11e8-8cd0-e4b56d6d7b25.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/10361542/48317465-952f3c00-e5a7-11e8-8cd0-e4b56d6d7b25.gif">
+</p>
 
-[thisismybeet](https://thisismybeet.netlify.com) is an application with the following features:
+[_thisismybeet_](https://thisismybeet.netlify.com) is an application with the following features:
 
 - **Beets.** Music at your fingertips. A fun gizmo to play with when you're with your friends and just would like to create memories by creating beets.
 - **Accessability.** Utilizes keyboard and clicks to be functional across desktop and native platforms and correct resizing if for some reason you need to resize the application.
