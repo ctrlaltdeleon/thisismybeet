@@ -15,7 +15,7 @@
 <!-- BADGES -->
 
 <p align="center">
-    <a href="https://github.com/acfromspace/thisismybeet/blob/master/LICENSE">
+    <a href="https://github.com/ctrlaltdeleon/thisismybeet/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/mashape/apistatus.svg"
             alt="License: MIT"></a>
     <a href="https://www.repostatus.org/#unsupported">
