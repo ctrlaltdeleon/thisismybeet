@@ -8,7 +8,7 @@
   <span role="img" aria-label="Musical Note">🎵</span>
 </h3>
 <p align="center">
-  <strong>DJ Soundboard.</strong><br>
+  <strong>Daft Punk's "Harder, Better, Faster, Stronger" on a DJ Soundboard.</strong><br>
   Made with pure JavaScript, CSS, & HTML.
 </p>
 
@@ -25,7 +25,7 @@
 <!-- FEATURES -->
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/10361542/48317465-952f3c00-e5a7-11e8-8cd0-e4b56d6d7b25.gif">
+  <img src="https://images2.alphacoders.com/150/15000.jpg">
 </p>
 
 [_thisismybeet_](https://thisismybeet.netlify.com) is a website with the following features:
