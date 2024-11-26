@@ -28,7 +28,7 @@
   <img src="https://images2.alphacoders.com/150/15000.jpg">
 </p>
 
-[_thisismybeet_](https://thisismybeet.netlify.com) is a website with the following features:
+[_thisismybeet_](https://thisismybeet.netlify.app) is a website with the following features:
 
 - **Beets.** Music at your fingertips. A fun gizmo to play with when you're with your friends and just would like to create memories by creating beets.
 - **Accessability.** Utilizes keyboard and clicks to be functional across desktop and native platforms and correct resizing if for some reason you need to resize the application.
